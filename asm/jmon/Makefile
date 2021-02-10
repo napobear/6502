@@ -1,10 +1,15 @@
 # Uncomment one of the following lines to set your platform
 #PLATFORM=APPLE1
 #PLATFORM=APPLE2
-PLATFORM=OSI
+#PLATFORM=OSI
 #PLATFORM=KIM1
+PLATFORM=SBC
 
 all: jmon.mon jmon.lod jmon.ptp
+
+# JMON load file
+jmon.jm: jmon.bin
+	./loader2.py -l 8192 jmon.bin >jmon.jm
 
 # Apple 1/Replica 1/Apple 2 version binary
 # Use -1 option for Apple 1, -2 option for Apple 2
@@ -32,7 +37,4 @@ archive: jmon.mon
 	zip jmon-0.4.zip jmon.s disasm.s miniasm.s trace.s info.s memtest4.s README.txt jmon.mon Makefile
 
 clean:
-	$(RM) jmon.o jmon.lst jmon.map jmon.bin jmon.lod jmon.mon jmon.ptp
-
-distclean: clean
-	$(RM) jmon.mon jmon.lod jmon.ptp
+	$(RM) jmon.o jmon.lst jmon.map jmon.bin jmon.lod jmon.mon jmon.ptp jmon.jm
