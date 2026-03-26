@@ -22,7 +22,7 @@ replica1addresses.odt - Quick Reference of key addresses on the Replica 1.
 
 Replica1QuickReference.odt - Quick Reference for the Replica 1.
 
-Replica1QuickReference.odt - Quick Reference for the Replica 1 (PDF format).
+Replica1QuickReference.pdf - Quick Reference for the Replica 1 (PDF format).
 
 SuperboardIIIQuickReference.odt - Quick Reference for the Superboard ///.
 
@@ -30,14 +30,19 @@ SuperboardIIIQuickReference.pdf - Quick Reference for the Superboard /// (PDF fo
 
 KIM-1QuickReference.odt - Quick Reference for the KIM-1 Microcomputer.
 
-KIM-1QuickReference.odt - Quick Reference for the KIM-1 Microcomputer (PDF format).
+KIM-1QuickReference.pdf - Quick Reference for the KIM-1 Microcomputer (PDF format).
 
-FirstBookOfKimReference.pdf - KIM-1 reference from the inside back cover of The First Book of KIM.
+FirstBookOfKimReference.odt - KIM-1 reference from the inside back cover of The First Book of KIM.
+
+FirstBookOfKimReference.pdf - KIM-1 reference from the inside back cover of The First Book of KIM (PDF format).
 
 AppleIIcQuickReference.odt - Quick Reference for the Apple //c.
 
 AppleIIcQuickReference.pdf - Quick Reference for the Apple //c (PDF format).
 
+AIM-65QuickReference.odt - Rockwell AIM-65 Quick Reference Card
+
+AIM-65QuickReference.pdf - Rockwell AIM-65 Quick Reference Card (PDF format).
 ---
 
 Files written by me are released under the following license:
